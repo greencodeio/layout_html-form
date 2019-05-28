@@ -9,33 +9,33 @@
           maximum-scale=1.0,
           minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>HTML</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <form action="">
+  <form action="https://mate-academy-form-lesson.herokuapp.com/create-application">
     <fieldset>
       <legend>Personal information</legend>
       <label for="secondname">
-        <span>Surname:</span>
+        Surname:
         <input type="text" id="secondname">
       </label>
       <label for="name">
-        <span>Name:</span>
+        Name:
         <input type="text" id="name">
       </label>
       <label for="age">
-        <span>How old are You?</span>
+        How old are You?
         <input type="number" value="12" data-qa="field-value" id="age">
       </label>
       <label for="date">
-        <span>Full date of birth: </span>
+        Full date of birth:
         <input type="date" id="date">
       </label>
 
       <label for="check">
-        <span>I accept the term of the agreement</span>
+        I accept the term of the agreement
         <input type="checkbox" id="check">
       </label>
 
@@ -43,12 +43,12 @@
     <fieldset>
       <legend>Registration</legend>
       <label for="email">
-        <span>E-mail: </span>
+        E-mail:
         <input type="email" id="email" placeholder="email@example.com" data-qa="field-placeholder">
       </label>
 
       <label for="pass">
-        <span>Password: </span>
+        Password:
         <input type="password" id="pass">
       </label>
 
@@ -56,22 +56,22 @@
     <fieldset>
       <legend>An interesting fact about you!</legend>
       <label>
-        <span>Do you love cats? </span>
+        Do you love cats?
         <input type="radio" name="pets" value="yes" id="yes">
-        <label for="yes" class="pets">Yes</label>
+        <span for="yes" class="pets">Yes</span>
         <input type="radio" name="pets" value="no" id="no">
-        <label for="no" class="pets">No</label>
+        <span for="no" class="pets">No</span>
       </label>
       <label for="color">
-        <span>What is your favorite color? </span>
+        What is your favorite color?
         <input type="color" id="color">
       </label>
       <label for="time">
-        <span>What time do you go to bed? </span>
+        What time do you go to bed?
         <input type="time" id="time">
       </label>
       <label for="car">
-        <span>What are your favorite brand of cars? </span>
+        What are your favorite brand of cars?
         <select name="cars" id="car" multiple>
           <option value="bmw">BMW</option>
           <option value="audi">Audi</option>
@@ -79,7 +79,7 @@
         </select>
       </label>
       <label for="rate">
-        <span>How do you rate our work? </span>
+        How do you rate our work?
         <input type="range" id="rate" min="0" max="100" step="0">
       </label>
     </fieldset>
@@ -90,7 +90,7 @@
         <textarea name="coments" cols="20" rows="2" id="coments"></textarea>
       </label>
       <label for="recommend">
-        <span>Would you recommend us? </span>
+        Would you recommend us?
         <select name="recomend" id="recommend">
           <option value="yes">yes</option>
           <option value="no">no</option>
